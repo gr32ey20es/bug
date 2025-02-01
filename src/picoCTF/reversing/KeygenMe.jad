@@ -1,0 +1,201 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   KeygenMe.java
+
+import java.io.PrintStream;
+import java.util.Scanner;
+
+public class KeygenMe
+{
+
+    public KeygenMe()
+    {
+    }
+
+    public static void main(String args[])
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter key:");
+        String s = scanner.nextLine();
+        if(s.length() != 34)
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(33) != '}')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(32) != 'e')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(31) != 'b')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(30) != '6')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(29) != 'a')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(28) != '2')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(27) != '3')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(26) != '3')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(25) != '9')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(24) != '_')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(23) != 'd')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(22) != '3')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(21) != 'r')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(20) != '1')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(19) != 'u')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(18) != 'q')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(17) != '3')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(16) != 'r')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(15) != '_')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(14) != 'g')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(13) != 'n')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(12) != '1')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(11) != 'l')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(10) != '0')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(9) != '0')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(8) != '7')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(7) != '{')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(6) != 'F')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(5) != 'T')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(4) != 'C')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(3) != 'o')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(2) != 'c')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(1) != 'i')
+        {
+            System.out.println("Invalid key");
+            return;
+        }
+        if(s.charAt(0) != 'p')
+        {
+            System.out.println("Invalid key");
+            return;
+        } else
+        {
+            System.out.println("Valid key");
+            return;
+        }
+    }
+}
